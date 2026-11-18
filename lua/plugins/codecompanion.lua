@@ -28,7 +28,7 @@ return {
           -- Enable agentic tool groups by default or trigger them via @full_stack_dev in chat
           roles = {
             llm = "CodeCompanion (Copilot)",
-            user = "Me",
+            user = "Junlue",
           },
         },
         inline = {
