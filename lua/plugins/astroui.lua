@@ -16,6 +16,11 @@ return {
     highlights = {
       init = { -- this table overrides highlights in all themes
         -- Normal = { bg = "#000000" },
+        Normal = { bg = "NONE", ctermbg = "NONE" },
+        NormalNC = { bg = "NONE", ctermbg = "NONE" },
+        SignColumn = { bg = "NONE", ctermbg = "NONE" },
+        VertSplit = { bg = "NONE", ctermbg = "NONE" },
+        EndofBuffer = { bg = "NONE", ctermbg = "NONE" },
       },
       astrodark = { -- a table of overrides/changes when applying the astrotheme theme
         -- Normal = { bg = "#000000" },
@@ -42,5 +47,5 @@ return {
       style = "moon",
       light_style = "moon",
     },
-  }
+  },
 }
