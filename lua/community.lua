@@ -11,5 +11,8 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.diagnostics.tiny-inline-diagnostic-nvim" },
+  { import = "astrocommunity.indent.indent-rainbowline" },
+  { import = "astrocommunity.git.diffview-plus-nvim" },
   -- import/override with your plugins folder
 }
